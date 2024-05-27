@@ -58,10 +58,10 @@ namespace HomeWork_9
                 counter++;
             }
         }
-        public void Delete_Contact(int index)
+        public void Delete_Contact(int index) // Метод удаления контакта из книги контактов
         {
             contacts_.RemoveAt(index - 1);
         }
-        public int Size() { return contacts_.Count; }
+        public int Size() { return contacts_.Count; } // Метод получения размера книги контактов
     }
 }
